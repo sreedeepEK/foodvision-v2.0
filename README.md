@@ -1,4 +1,4 @@
-### Fine-Tuning Vision Transformer(ViT) using LORA
+## Fine-Tuning Vision Transformer(ViT) using LORA
 
 In this repository, I fine-tune a Vision Transformer (ViT) model using the Food101 dataset. 
 
