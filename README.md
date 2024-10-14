@@ -27,3 +27,18 @@ In this repository, I fine-tune a Vision Transformer (ViT) model using the Food1
 
 - **Model Evaluation**:
   - Compute and print the evaluation accuracy to assess the model's performance.
+ 
+### Requirements
+
+To run this project, you will need:
+
+- Python 3.7 or higher
+- Required libraries (install via pip):
+  
+  ```bash
+  pip install transformers accelerate evaluate datasets peft torch torchvision
+  ```
+
+#### Inference
+
+Once the model is fine-tuned, you can use it to classify new food images. The inference process involves loading the fine-tuned model, preprocessing the input image, and obtaining the predicted class label.
